@@ -1,0 +1,13 @@
+name: entity
+description: A Mason brick for creating a Freezed entity in Flutter.
+version: 0.1.0
+
+environment:
+  mason: ">=0.1.0-dev.32 <0.1.0"
+
+vars:
+  entity_name:
+    type: string
+    description: The name of the entity.
+    default: Person
+    prompt: What is the entity name?
